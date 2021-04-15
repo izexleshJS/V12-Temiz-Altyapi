@@ -20,4 +20,4 @@ module.exports.help = {
   description: 'Botta bulunan tüm komutları gösterir',
   usage: 'komutlar'
 };
-//Armor Kod
+//izexlesh.js
