@@ -1,3 +1,8 @@
+const Discord = require("discord.js");
+const db = require('quick.db');
+const ayarlar = require('../ayarlar.json');
+let talkedRecently = new Set();
+
 module.exports = message => {
   if (talkedRecently.has(message.author.id)) {
     return;
